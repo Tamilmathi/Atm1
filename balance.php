@@ -1,6 +1,5 @@
 <?php 
 include 'connection.php';
-//print_r($_SESSION);
 $num=$_SESSION['num'];
 $pin=$_SESSION['pin'];
 $pin=md5($pin);
